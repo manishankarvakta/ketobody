@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24.8 14.8" style="enable-background:new 0 0 24.8 14.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:url(#Stroke-1_1_);stroke-width:2.2;stroke-miterlimit:10;}
+</style>
+<title>Pointing Down Arrow</title>
+<desc>Created with Sketch.</desc>
+<g id="Landing">
+	<g id="Group-2" transform="translate(-711.000000, -467.000000)">
+		<g transform="translate(518.000000, 410.000000)">
+			<g id="Group">
+				<g id="Icons-_x2F_-ScrollDown-Arrow" transform="translate(183.000000, 43.000000)">
+					<linearGradient id="Stroke-1_1_" gradientUnits="userSpaceOnUse" x1="9.8075" y1="16.5657" x2="33.0094" y2="22.9031">
+						<stop  offset="0" style="stop-color:#FF874F"/>
+						<stop  offset="1" style="stop-color:#7039FF"/>
+					</linearGradient>
+					<path id="Stroke-1" class="st0" d="M31.9,15.4c0.4-0.4,1.1-0.4,1.5,0c0.4,0.4,0.4,1,0.1,1.4l-0.1,0.1L23.1,27.4
+						c-0.4,0.4-1,0.4-1.4,0.1l-0.1-0.1L11.4,16.9c-0.4-0.4-0.4-1.1,0-1.5c0.4-0.4,1-0.4,1.4,0l0.1,0.1l9.5,9.7L31.9,15.4z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
