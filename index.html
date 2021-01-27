@@ -10,6 +10,7 @@
     <link href="css/style.css" rel="stylesheet" >
 
     <title>KetoBody - Become the healthiest version of yourself 🥑</title>
+
   </head>
   <body>
     <div class="main-content">
@@ -27,8 +28,8 @@
                         <p class="text-center lato">Take the free quiz below</p>
                         <img src="img/arrow_down.svg" class="arrow rounded mx-auto d-block" alt="...">
                         <div class="button">
-                            <p class="text-center"><button type="button" class="btn btn-female btn-primary btn-lg">Woman <img src="img/female.svg" class=""></button></p>
-                            <p class="text-center"><button type="button" class="btn btn-male btn-primary btn-lg">Man <img src="img/male.svg" class=""></button></p>
+                            <p class="text-center"><a href="JavaScript:Void(0);" type="button" id="woman" class="btn btn-female btn-primary btn-lg">Woman <img src="img/female.svg" class=""></a></p>
+                            <p class="text-center"><a href="JavaScript:Void(0);" type="button" id="man" class="btn btn-male btn-primary btn-lg">Man <img src="img/male.svg" class=""></a></p>
                         </div>
                     </div>
                 </div>
@@ -67,10 +68,28 @@
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
+    <script src="js/jquery-3.5.1.min.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        $( document ).ready(function() {
+            var man = "https://google.com";
+            var woman = "https://facebook.com";
+
+           $('#woman').click(function(){
+               event.preventDefault() 
+               window.location.href = woman;
+           });
+
+           $('#man').click(function(){
+               event.preventDefault() 
+               window.location.href = man;
+           });
+        });
+    </script>
+
 
     
   </body>
