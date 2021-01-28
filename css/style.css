@@ -7878,6 +7878,30 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 13px; }
 
+.card {
+  margin-bottom: 20px;
+  border-radius: 10px; }
+  .card .card-header {
+    padding: 0px 20px;
+    border-radius: 10px; }
+  .card .card-header:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f067";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+    top: 8px;
+    position: absolute;
+    left: 10px; }
+
+.btn:focus, .btn.focus, .btn:hover {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0) !important;
+  text-decoration: none; }
+
+.btn-link {
+  color: #444444; }
+
 @media (max-width: 575.98px) {
   body {
     background-image: url("../img/Landing_BG-left_top_3x.png"), url("../img/Landing_BG-right_top_3x.png");

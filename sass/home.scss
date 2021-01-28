@@ -110,6 +110,35 @@ body{
         }
     }
 }
+
+.card{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    .card-header{
+        padding: 0px 20px;
+        border-radius: 10px;
+    }
+    .card-header:before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f067";
+        display: inline-block;
+        padding-right: 3px;
+        vertical-align: middle;
+        font-weight: 900;
+        top: 8px;
+        position: absolute;
+        left: 10px;
+        
+     }
+}
+
+.btn:focus, .btn.focus, .btn:hover{
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0) !important;
+    text-decoration: none;
+}
+.btn-link{
+    color:$black_m;
+}
 // responsive
 
 @include media-breakpoint-down(xs) {
